@@ -49,13 +49,6 @@ class Digit{
         this.part_list[i].draw();
       }
     }
-    // this.partA.draw();
-    // this.partB.draw();
-    // this.partC.draw();
-    // this.partD.draw();
-    // this.partE.draw();
-    // this.partF.draw();
-    // this.partG.draw();
   }
 }
 class Rectangle{
@@ -97,10 +90,6 @@ function setup() {
   button.mousePressed(greet);
   
   textAlign(CENTER);
-  textSize(50);
-  // for (let i=0;i<6;i++){
-  //   digit_arr.push(new_digit = new Digit(i*offset_x+i*30+25, offset_y));
-  // }
 }
 
 function greet() {
@@ -109,10 +98,8 @@ function greet() {
   //console.log('Value: '+name);
   for (let i=0; i<name.length;i++){
     digit_arr.push(new_digit = new Digit(i*offset_x+i*30+25, offset_y, int(name[i])));
-    //console.log(int(name[i]));
   }
   input.value('');
-  //greeting.html('hello ' + name + '!');
 }
 
 
@@ -121,20 +108,5 @@ function draw() {
   fill(0)
   for(let i=0; i<digit_arr.length; i++){
     digit_arr[i].draw();
-  }
-  // digit_arr[0].draw(0);
-  // digit_arr[1].draw(0);
-  // digit_arr[2].draw(0);
-  // digit_arr[3].draw(0);
-  // digit_arr[4].draw(0);
-  // digit_arr[5].draw(0);
-  // digit1.draw(0);
-  // partA.draw();
-  // partB.draw();
-  // partC.draw();
-  // partD.draw();
-  // partE.draw();
-  // partF.draw();
-  // partG.draw();
-  
+  }  
 }
