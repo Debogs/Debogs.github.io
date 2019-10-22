@@ -2,7 +2,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 ## Projects
 - Seven Segment Display:
   - [**Seven Segment Display-Live**](./SevenSegment.html).
-  - [**Seven Segment Display-Source**](./p5SevenSeg/SevenSegment.md).
+  - [**Seven Segment Display-Source**](./SevenSegment.md).
 - Next Project:
   - Live
   - Source
